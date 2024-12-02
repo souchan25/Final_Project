@@ -48,7 +48,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn btn-outline-danger">Danger</button>
+                        <button type="button" class="logout">Logout</button>
                     </li>
                 </ul>
             </div>
@@ -329,7 +329,7 @@
                             <input type="text" class="form-control" style="border-radius: 1px;" placeholder="Email"
                                 aria-label="Email" aria-describedby="button-addon2">
                             <button class="btn btn-outline-light" type="button" id="button-addon2"
-                                style="margin-top: 5px;">Subscribe</button>
+                                style="margin-top: 5px">Subscribe</button>
                         </div>
                     </form>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>

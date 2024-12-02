@@ -55,9 +55,12 @@ img{
     transition: all .4 ease;
 }
 .card:hover .card-title,
-.card:hover .card-text,
+.card:hover .card-text{
+    color: seagreen;
+}
 .card:hover .btn-brand{
-    color: aliceblue;
+    color: seagreen;
+    background-color: #ffffff;
 }
 
 #services {
@@ -160,4 +163,17 @@ footer{
 }
 #banner p{
     font-size: 1.2rem;
+}
+.logout{
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color: hsl(355, 50%, 54%);
+    color: white;
+    border: none;
+}
+
+.logout:hover{
+    background-color: white;
+    color: hsl(355, 50%, 54%);
+    border: solid hsl(355, 50%, 54%) 1px;
 }
